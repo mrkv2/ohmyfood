@@ -1,5 +1,8 @@
 *{
-   font-family:'robbot'
+   font-family:'robbot';
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 :root {
    --violet-color:#9356DC;
@@ -8,9 +11,7 @@
    --font-title:style-font:var(--font-title)shrikhand
 }
 
-html {
-   paddind:0px
-}
+
 .mobilefirst {
    display: flex;
    flex-direction: column;
@@ -86,7 +87,7 @@ html {
    display: flex;
    align-items: center;
    flex-direction: column;
-      gap: 20px;
+      gap: 15px;
       margin-bottom: 30px;
 }
 .fonctionnement form {
@@ -103,6 +104,7 @@ html {
     height: 72px;
    border-radius: 33px;
    padding: 10px 20px;
+   
 }
    .fonctionnnement .title {
       display: flex;
@@ -114,22 +116,22 @@ html {
 .fonction__icon {
     
    border: none;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   font-size: 8px;;
+   border: 2px;
+   background-color: #f2f2f2;
+   font-weight: bold;
+   
+}
    
    
  
   
    
 
-}
-.button__text {
-   font-size: 20px;
-   border: 0px;
-   background-color: #f2f2f2;
-   
-   font-weight: bold;
-  padding-left: 10px;
-   
-}
+
 /****** container restaurants ***********/
 .restaurants {
   display: flex;
