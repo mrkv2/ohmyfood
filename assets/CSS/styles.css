@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+
+* {
+   font-family: 'Roboto';
+   font-weight: 500;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+
+
+:root {
+   --violet-color: #9356DC;
+   --main-color-rose: #FF79DA;
+   --main-color: #99E2D0;
+   --gray-color: #F6F6F6;
+   --font-roboto: style-font:var(--font-roboto)roboto;
+   --grey-color: #353535;
+
+}
+
+h1 {
+   font-weight: 700;
+   font-size: 24px;
+}
+h2 {
+   font-size: 24px;
+   font-weight: 700;
+}
+h3 {
+   font-size: 16px;
+}
+a {
+   text-decoration: none;
+   color: black;
+}
+p {
+   font-weight: 300;
+}
+/****** §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§|||| THE RECURENT ||||§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§ ***********/
+/****** form***********/
+.reservbutton-violet {
+
+   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+   display: inline-block;
+   padding: 10px 20px;
+   background: linear-gradient(200.64deg, #9356DC -4.4%, #FF79DA);
+   border-radius: 25px;
+   color: #FFF;
+   text-align: center;
+   text-decoration: none;
+   width: 322px;
+   height: 72px;
+   font-size: 16px;
+   font-weight: 500;
+   gap: 20px;
+
+}
+.reservbutton-violet:hover::after {
+   opacity: 2;
+
+}
+.reservbutton-violet::after {
+background: linear-gradient(0deg, rgba(255, 255,255, 0.15), rgba(255,255,255,0.16,)), linear-gradient(200.64deg, #9356DC -5.3%, #FF79DA 110.74%);
+opacity:0;
+}
+.icon-heart {
+height: 30px;
+width: 30px;
+stroke: black;
+fill-opacity: 0%;
+fill: url(gradient);
+position: absolute;
+top: 10px;
+right: 12px;
+
+}
+.button-news  {
+   background: #99E2D0;
+   position: absolute;
+   width: 82px;
+   height: 29px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #008766;
+   font-size: 14px;
+   font-weight: 500;
+   border-radius: 2%;
+   top: 10px;
+   right: 12%;
+
+}
+
+
+/****** §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§|||| DEBUT DE PAGE D ACCUEIL ||||§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§ ***********/
+/****** container du header ***********/
+.logo {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+
+}
+
+.img__logo {
+   width: 162px;
+   height: 44px;
+   margin-bottom: 20px;
+   padding-top: 14px;
+   padding-bottom: 5px;
+
+}
+
+.buttonsearch {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 50px;
+   background-color: #EAEAEA;
+   padding: 0px;
+   align-items: center;
+
+}
+
+.formsearch {
+   display: flex;
+   gap: 10px;
+}
+
+.button__icon {
+   border: 0;
+}
+
+.button__text {
+   width: 100px;
+   border: 0;
+   background-color: #EAEAEA;
+   font-weight: bold;
+}
+
+/****** container reservation ***********/
+.reservation {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: var(--gray-color);
+   gap: 30px;
+   padding-bottom: 40px;
+
+
+
+}
+
+.reservation .title {
+   justify-content: center;
+   align-items: center;
+   font-weight: 700;
+   font-size: 20px;
+   text-align: center;
+   padding-top: 30px;
+
+
+
+}
+
+.reservation__title--p {
+   justify-content: center;
+   font-weight: 400;
+   font-size: 16px;
+   text-align: center;
+   padding-top: 20px;
+
+
+}
+
+
+
+/****** container fonctionnement ***********/
+.fonctionnement {
+   padding-left: 20px;
+   padding-bottom: 68px;
+}
+
+.fonctionnement h2 {
+   padding-top: 48px;
+}
+
+.fonctionnement__cards {
+   margin: 26px 20px 0 12px;
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+   
+}
+
+.fonctionnement__cards__card {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+   background: #F7F7F7;
+   border-radius: 20px;
+   gap: 23px;
+   position: relative;
+}
+
+
+.fonctionnement__cards__card span {
+   background: #9356DC;
+   border-radius: 100%;
+   width: 24px;
+   height: 24px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #F6F6F6;
+   font-size: 14.18px;
+   position: absolute;
+   top: 30%;
+   left: -12px;
+}
+
+.fonctionnement__cards__card i {
+   color: #7E7E7E;
+}
+
+
+.fonctionnement__cards__card h3 {
+  display: flex;
+   padding: 28.59px 20px 28.12px 0px;
+   width: 70%;
+   height: 15.67px;
+   align-items: center;
+   
+}
+
+.fonctionnement__cards__card:hover {
+   background-color: #F5EDFF;
+}
+
+.fonctionnement__cards__card:hover>i {
+   color: #9356DC;
+}
+
+
+/****** container restaurants ***********/
+.restaurants {
+   display: flex;
+   flex-direction: column;   
+   background-color: var(--gray-color);
+   padding: 54px 20px 64px 20px;
+   gap: 20px;
+
+}
+
+.restaurants__card {
+   display: flex;
+   flex-direction: column;
+   margin-top: 30px;
+   gap: 0px;
+   position: relative;
+
+
+}
+
+.restaurants__cards .card {
+   width: 90%;
+
+}
+
+.restaurants__card img {
+   width: 100%;
+   height: 150px;
+   object-fit: cover;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+
+}
+
+
+.restaurants__card .title {
+   margin-top: 0px;
+   margin-left: 0px;
+   margin-bottom: 40px;
+   background-color: white;
+   border-top-left-radius: 0px;
+   border-top-right-radius: 0px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   padding: 15px;
+   filter: drop-shadow(0px 0px 010px rgba(0, 0, 0, 0.1));
+   box-sizing: border-box;
+}
+
+/****** container footer ***********/
+footer {
+   display: flex;
+   flex-direction: column;
+   padding: 22px 0 33px 25px;
+   background: var(--grey-color);
+   color: #FFF;
+}
+
+footer h2 {
+   font-family: shrikhand;
+   font-weight: 400;
+   font-size: 18px;
+   margin-bottom: 16px;
+}
+
+footer .footer__text {
+   display: flex;
+   flex-direction: column;
+   gap: 7px;
+}
+
+footer .fa-solid {
+   position: absolute;
+}
+
+.icon__text {
+   display: flex;
+   align-items: center;
+   gap: 11px;
+}
+
+.icon__text p {
+   padding-left: 24px;
+}
+
+.footer__text a {
+   color: white;
+   font-weight: 300;
+}
+/****** §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§|||| PAGE OF RESTAURANTS MENU ||||§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§ ***********/
