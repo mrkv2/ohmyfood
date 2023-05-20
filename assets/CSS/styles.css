@@ -95,6 +95,17 @@ right: 12px;
    right: 12%;
 
 }
+/****** MENU_PAGES RECURENT ***********/
+.navreturn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.navreturn a {
+   position: absolute;
+   left: 20px;
+  top:  20px;
+}
 
 
 /****** §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§|||| DEBUT DE PAGE D ACCUEIL ||||§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§ ***********/
@@ -306,6 +317,8 @@ footer {
    padding: 22px 0 33px 25px;
    background: var(--grey-color);
    color: #FFF;
+   
+   
 }
 
 footer h2 {
@@ -340,3 +353,61 @@ footer .fa-solid {
    font-weight: 300;
 }
 /****** §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§|||| PAGE OF RESTAURANTS MENU ||||§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§ ***********/
+/****** IMAGES MENU BACKGROUND ***********/
+.background--menu {
+   width: 100%;
+   height: 275px;
+   object-fit: cover;
+   position: relative;
+   z-index: 1;
+   }
+   /****** MENUS ENTREESS PLATS DESERTS ***********/
+   .menu {
+      width: 100%;
+      background: #f7f7f7;
+      border-radius: 45px 45px 0px 0px;
+      display: flex;
+      flex-direction: column;
+      margin-top: -40px;
+      position: absolute;
+      z-index: 2;
+
+   }
+   .menu__title {
+      display: flex;
+      align-items: center;
+      padding-top: 32px;
+      gap: 24px;
+   }
+.menu h1 {
+   font-family: shrikhand;
+   font-size: 28px;
+   font-weight: 400;
+   padding-left: 17px;
+}
+.menu__title h2 {
+   font-size: 16px;   
+   font-weight: 300;
+   padding-bottom: 5px;
+   margin-bottom: 12px;
+   border-bottom: 3px solid #99E2D0;
+   width: 40%;
+
+}
+.section__menu__cards {
+   display: flex;
+   flex-direction: column;
+   gap: 14px;
+}
+.section__menu__cards .card {
+   flex-direction: row;
+   justify-content: space-between;
+   overflow: hidden;
+
+}
+.section__menu__cards .card .card-content {
+   min-width: 70%;
+}
+.price {
+   font-weight: 700;
+}
