@@ -18,7 +18,7 @@
    --main-color-rose: #FF79DA;
    --main-color: #99E2D0;
    --gray-color: #F6F6F6;
-   --font-roboto: style-font:var(--font-roboto)roboto;
+   --font-roboto: var(--font-roboto)roboto;
    --grey-color: #353535;
 
 }
@@ -80,7 +80,7 @@ p {
 
 /* spinner attente */
 .lds-spinner {
-   color: official;
+   color:#9356DC;
    display: inline-block;
    width: 100%;
    height: 100%;
@@ -211,7 +211,7 @@ p {
 }
 
 .reservbutton-violet::after {
-   background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.16, )), linear-gradient(200.64deg, #9356DC -5.3%, #FF79DA 110.74%);
+   background: linear-gradient (0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.16, )), linear-gradient(200.64deg, #9356DC -5.3%, #FF79DA 110.74%);
    opacity: 0;
 }
 
@@ -693,7 +693,7 @@ footer .fa-solid {
 }
 
 .dish {
-   width: 100%px;
+   width: 100%;
    height: 80px;
    box-shadow: 1px 1px 1px 1px gray;
    background: #ffff;
