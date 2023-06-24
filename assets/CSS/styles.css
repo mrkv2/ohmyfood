@@ -962,10 +962,10 @@ footer .fa-solid {
    /***media queries bureau menu ************/
 
    .menu {
-      width: 85%;
+      width: 100%;
       justify-content: center;
-      left: 65px;
-      right: 65px;
+      padding-left: 65px;
+      padding-right: 65px;
 
 
 
