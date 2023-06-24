@@ -506,6 +506,7 @@ p {
    margin-top: 30px;
    gap: 0px;
    position: relative;
+   width: auto;
 
 
 }
