@@ -854,12 +854,7 @@ footer .fa-solid {
 /***page d'acceuil ************/
 
 @media screen and (min-width: 600px) and (max-width: 2400px) {
-
-   .background--menu {
-      
-      
-   }
-
+  
    .reservation__title--h2 h {
       font-size: 18px;
 
