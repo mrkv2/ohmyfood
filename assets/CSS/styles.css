@@ -34,7 +34,7 @@ h2 {
 }
 
 h3 {
-   font-size: 16px;
+   font-size: 0.7em;
 }
 
 a {
@@ -43,7 +43,8 @@ a {
 }
 
 p {
-   font-weight: 300;
+   font-weight: 200;
+   font-size: 0.7em;
 }
 
 /****** §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§|||| THE RECURENT ||||§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§ ***********/
@@ -439,6 +440,7 @@ p {
    border-radius: 20px;
    gap: 23px;
    position: relative;
+   padding-left: 15px;
 }
 
 
@@ -454,7 +456,7 @@ p {
    font-size: 14.18px;
    position: absolute;
    top: 30%;
-   left: -12px;
+   left: -22px;
 }
 
 .fonctionnement__cards__card i {
@@ -489,9 +491,13 @@ p {
    gap: 20px;
 
 }
+
 .restaurants__title--h2 {
+
    background-color: var(--gray-color);
-   
+   padding-left: 20px;
+   padding-bottom: 68px;
+
 }
 
 .restaurants__card {
@@ -746,6 +752,7 @@ footer .fa-solid {
    align-items: center;
    font-size: 0px;
 }
+
 .checkmark i {
    color: #f7f7f7;
 }
@@ -807,7 +814,7 @@ footer .fa-solid {
 
 #heart-checkbox {
    display: none;
-   
+
 }
 
 .full-heart {
@@ -867,23 +874,34 @@ footer .fa-solid {
       gap: 25px;
       height: 49px;
       width: 100%;
+      padding-left: 30px;
+      padding-right: 30px;
       text-align: center;
       font-size: 14px;
       white-space: nowrap;
+      
 
 
    }
 
    .foncctionnement__cards h3 {
-      font-size: 8px;
+      font-size: 2em;
       width: 100%;
+      
 
 
    }
+
    .fonctionnement {
       width: 100%;
+      justify-content: center;
+      padding-right: 20px;
+      
    }
-   
+   .fonctionnement__cards__card{
+      
+      width: 33%;
+   }
    .fonctionnement__cards__card span {
       background: #9356DC;
       border-radius: 100%;
@@ -909,14 +927,15 @@ footer .fa-solid {
 
    .restaurants__title--h2 {
       display: flex;
-      justify-content:left;
+      justify-content: left;
       flex-direction: row;
-      padding-bottom: 0px;
-      padding-left: 30px;
-      padding-top: 0;
-      padding-right: 0;      
-      font-size: 16px;
-      width: 100%
+      padding-left: 20px;
+      padding-top: 38px;
+      padding-bottom: 0;
+      width: 100% ;
+      font-family: 'Roboto';
+      font-weight: 500;
+
    }
 
    .restaurants {
@@ -928,87 +947,103 @@ footer .fa-solid {
 
 
    }
+
    .main-container-heart {
       left: 260px;
    }
-.menu {
-   width: 85%;
-   justify-content: center;
-   left: 55px;
+
+   .menu {
+      width: 85%;
+      justify-content: center;
+      left: 55px;
+
+
+
+   }
+
+   .menu__title {
+      width: 90%;
+      padding-left: 60px;
+   }
+
+   .dish {
+      width: 100%;
+
+   }
+
+   .menu-full {
+      justify-content: center;
+
+   }
+
+   .entree.test {
+      justify-content: center;
+   }
+
+   .section__menu__cards {
+      left: 20px;
+      padding-left: 60px;
+      padding-right: 60px;
+
+   }
    
-   
-   
-}
-.menu__title {
-   width: 90%;
-   padding-left: 60px;
-}
-.dish {
-   width: 100%;
-   
-}
-.menu-full {
-   justify-content: center;
-   
-}
-.entree.test {
-   justify-content: center;
-}
-.section__menu__cards {
-   left: 20px;
-   padding-left: 60px;
-   padding-right: 60px;
-   
-}
 
    footer h2 {
       display: flex;
-      justify-content: flex-end;
+      flex-direction: row;
+      justify-content: right;
       padding-right: 30px;
       font-family: shrikhand;
-      font-weight: 400;
-      font-size: 18px;
-      
+      font-weight: 300;
+      font-size: 16px;
+      margin: 0;
+      position: relative;
+      bottom: -20px;
+
 
    }
+
    footer .footer__text {
       display: flex;
       flex-direction: row;
-      gap: 7px;
+     
+      gap: 5px;
       justify-content: flex-end;
-      padding-right: 20px;
-  }
-  
-
-footer .fa-solid {
-    position: relative;
-    right: -5px;
-    padding-left: 0px;
-
-    
-}
+      
+      width: 70%;
+   }
 
 
-.icon__text p {
-    padding-left: 0px;
-    gap: 0px;
-}
+   footer .fa-solid {
+      position: relative;
+      right: -5px;
+      padding-left: 0px;
+
+
+   }
+
+
+   .icon__text p {
+      padding-left: 0px;
+      gap: 0px;
+   }
 
    .footer {
       display: flex;
       flex-direction: row;
-      justify-content: flex-end;
-      }
-      p {
-         font-weight: 500;
-         font-size: 12px;
-      }
-   
-element.style {
-}
-.footer__text a {
-    color: white;
-    font-weight: 500;
-    font-size: 12px;
-}
+      
    }
+
+   p {
+      font-weight: 300;
+      font-size: 0.7em;
+   }
+
+   
+
+   .footer__text a {
+      color: white;
+      font-weight: 500;
+      font-size: 1em;
+   }
+}
