@@ -875,7 +875,7 @@ footer .fa-solid {
       justify-content: center;
       gap: 25px;
       height: 49px;
-      width: 100%;
+      width: auto;
       padding-left: 30px;
       padding-right: 30px;
       text-align: center;
@@ -895,7 +895,7 @@ footer .fa-solid {
    }
 
    .fonctionnement {
-      width: 100%;
+      width: auto;
       justify-content: center;
       padding-right: 20px;
       
