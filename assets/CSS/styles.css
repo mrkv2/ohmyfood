@@ -855,6 +855,11 @@ footer .fa-solid {
 
 @media screen and (min-width: 600px) and (max-width: 2400px) {
 
+   .background--menu {
+      
+      
+   }
+
    .reservation__title--h2 h {
       font-size: 18px;
 
@@ -924,7 +929,7 @@ footer .fa-solid {
    .fa-solid,
    .fas {
       font-weight: 900;
-      padding-left: 20px;
+      
    }
 
    .restaurants__title--h2 {
@@ -962,10 +967,10 @@ footer .fa-solid {
    /***media queries bureau menu ************/
 
    .menu {
-      width: 100%;
-      justify-content: center;
-      padding-left: 65px;
-      padding-right: 65px;
+      width: 80%;
+      justify-content:center;      
+      margin-left: 100px;
+      margin-right: 100px;
 
 
 
@@ -983,6 +988,9 @@ footer .fa-solid {
 
    .menu-full {
       justify-content: center;
+      padding-left: 35px;
+      padding-right: 35px;
+      
 
    }
 
@@ -996,31 +1004,34 @@ footer .fa-solid {
       padding-right: 60px;
 
    }
-   
+   .container__btn {
+      padding-top: 30px;
+   }
 
    footer h2 {
       display: flex;
       flex-direction: row;
       justify-content: right;
-      padding-right: 30px;
+      padding-right: 10px;
       font-family: shrikhand;
       font-weight: 300;
       font-size: 16px;
       margin: 0;
       position: relative;
-      bottom: -20px;
+      bottom: -16px;
 
 
    }
 
    footer .footer__text {
       display: flex;
-      flex-direction: row;
-     
+      flex-direction: row;     
       gap: 5px;
       justify-content: flex-end;
-      
-      width: 70%;
+      position: relative;
+      left: -110px;
+      width: 100%;
+      font-size: 12px;
    }
 
 
