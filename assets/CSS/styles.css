@@ -946,9 +946,13 @@ footer .fa-solid {
       grid-template-rows: 251px 251px;
       grid-gap: 20px;
       padding-top: 30px;
-      width: auto;
+      padding-left: 80px;
+      padding-right: 80px;
 
 
+   }
+   .restaurants__card {
+      max-width: 350px;
    }
 
    .main-container-heart {
