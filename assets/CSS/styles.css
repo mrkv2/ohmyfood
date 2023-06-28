@@ -964,8 +964,8 @@ footer .fa-solid {
    .menu {
       width: 80%;
       justify-content:center;      
-      margin-left: 100px;
-      margin-right: 100px;
+      margin: auto;      
+      transform: translateY(-40px);
 
 
 
