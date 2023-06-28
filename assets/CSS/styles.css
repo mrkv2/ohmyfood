@@ -800,7 +800,7 @@ footer .fa-solid {
 /********************** Media queries*************************************/
 /***page d'acceuil ************/
 
-@media screen and (min-width: 800px) and (max-width: 2400px) {
+@media screen and (min-width: 960px) and (max-width: 2400px) {
   .reservation__title--h2 h {
     font-size: 18px;
   }
@@ -835,7 +835,8 @@ footer .fa-solid {
   .fonctionnement {
     width: auto;
     justify-content: center;
-    padding-right: 20px;
+    padding-right: 180px;
+    padding-left: 180px;
   }
   .fonctionnement__cards__card {
     width: 33%;
@@ -864,7 +865,7 @@ footer .fa-solid {
     display: flex;
     justify-content: left;
     flex-direction: row;
-    padding-left: 20px;
+    padding-left: 180px;
     padding-top: 38px;
     padding-bottom: 0;
     width: 100%;
@@ -883,14 +884,10 @@ footer .fa-solid {
     padding-top: 30px;
     
   }
-  .restaurants__card img {
-   
-   
-  
-  }
+
   .restaurants__card {
    width: 100%;
-   max-width: 499.65px;
+   max-width: 600px;
   }
 
   .main-container-heart {
