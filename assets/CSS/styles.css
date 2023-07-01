@@ -199,11 +199,14 @@ p {
 }
 
 .reservbutton-violet::after {
-  background: linear-gradient
-      (0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.16)),
-    linear-gradient(200.64deg, #9356dc -5.3%, #ff79da 110.74%);
-  opacity: 0;
-}
+   background: linear-gradient(
+     0deg,
+     rgba(255, 255, 255, 0.15),
+     rgba(255, 255, 255, 0.16)
+   ),
+   linear-gradient(200.64deg, #9356dc -5.3%, #ff79da 110.74%);
+   opacity: 0;
+ }
 
 /* coeur page d'acceuil */
 .acceuil-heart {
