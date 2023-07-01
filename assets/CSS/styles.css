@@ -41,7 +41,10 @@ p {
   font-weight: 200;
   font-size: 0.7em;
 }
+button {
+   border-width: 0px;
 
+   }
 /****** §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§|||| THE RECURENT ||||§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§ ***********/
 /****** form***********/
 
@@ -182,7 +185,7 @@ p {
   display: inline-block;
   padding: 10px 20px;
   background: linear-gradient(200.64deg, #9356dc -4.4%, #ff79da);
-  border-radius: 25px;
+  border-radius: 30px;
   color: #fff;
   text-align: center;
   text-decoration: none;
